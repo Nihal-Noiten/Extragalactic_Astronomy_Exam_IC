@@ -1,22 +1,22 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.ticker as tck
-from matplotlib.ticker import FormatStrFormatter, MultipleLocator, FuncFormatter
+from   matplotlib.ticker import FormatStrFormatter, MultipleLocator, FuncFormatter
 import matplotlib.colors as colors
 import matplotlib.patches as patches
-from matplotlib.gridspec import GridSpec
-from matplotlib import rc
+from   matplotlib.gridspec import GridSpec
+from   matplotlib import rc
 import time
 import datetime
-from scipy.integrate import quad, ode
+from   scipy.integrate import quad, ode
 # from scipy.special import erf
 import argparse
 import sys
-from timeit import default_timer as timer
+from   timeit import default_timer as timer
 import os
-from sys import stdout
-from time import sleep
-from astropy.modeling import models, fitting
+from   sys import stdout
+from   time import sleep
+from   astropy.modeling import models, fitting
 
 ############################################################################################################################
 
