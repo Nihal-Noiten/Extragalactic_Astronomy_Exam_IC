@@ -9,7 +9,7 @@ from   matplotlib import rc
 import time
 import datetime
 from   scipy.integrate import quad, ode
-# from scipy.special import erf
+# from   scipy.special import erf
 import argparse
 import sys
 from   timeit import default_timer as timer
